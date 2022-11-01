@@ -29,7 +29,7 @@ function Dashboard() {
     return () => {
       dispatch(reset())
     }
-  }, [user, navigate, isError, message, dispatch])
+  }, [user, navigate, isError, message])
 
   if (isLoading) {
     return <Spinner />
